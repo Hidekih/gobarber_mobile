@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-// import { Form } from '@unform/mobile';
+import { Form } from '@unform/mobile';
 
 export const Container = styled.View`
   flex: 1;
@@ -15,7 +15,7 @@ export const Title = styled.Text`
   margin: 64px 0 16px;
 `;
 
-export const Form = styled.View`
+export const UnForm = styled(Form)`
   width: 100%;
   display: flex;
 `;
