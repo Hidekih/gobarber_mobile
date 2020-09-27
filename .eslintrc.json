@@ -29,6 +29,8 @@
         "@typescript-eslint"
     ],
     "rules": {
+      "no-unused-expressions": "off",
+      "react/jsx-props-no-spreading": "off",
       "prettier/prettier": "error",
       "no-use-before-define": "off",
       "react-hooks/rules-of-hooks": "error",
